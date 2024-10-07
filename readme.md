@@ -22,9 +22,10 @@ Este repositorio incluye 6 ejercicios prácticos sobre funciones en JavaScript, 
 6. **Algoritmo Burbuja**:  
    Implementación del algoritmo de ordenamiento burbuja para ordenar un arreglo de números.
 
-Cada uno de estos ejercicios está implementado con respectiva solución , demostrando cómo enfrentar distintos desafíos usando métodos esenciales de JavaScript.
+Cada uno de estos ejercicios está implementado con su respectiva solución , demostrando cómo enfrentar distintos desafíos usando métodos esenciales de JavaScript.
 
 ## Despliegue de la Página
 
 ¡Puedes explorar el despliegue de la página en el siguiente enlace!
+
 [Ver Despliegue de la Página](https://tu-enlace-de-despliegue.com)
