@@ -1,6 +1,6 @@
 # Ejercicios de Funciones en JavaScript
 
-Este repositorio incluye 6 ejercicios prácticos sobre funciones en JavaScript, utilizando diferentes métodos para resolver problemas comunes de programación. Aquí encontrarás una breve descripción de cada ejercicio y los métodos que se utilizan para resolverlos.
+Este repositorio incluye 6 ejercicios prácticos sobre funciones en JavaScript, utilizando diferentes métodos para resolver problemas comunes de programación. Aquí encontrarás una breve descripción de cada ejercicio y los métodos que se utilizarón para resolverlos.
 
 ## Ejercicios y Métodos Utilizados
 
@@ -22,10 +22,9 @@ Este repositorio incluye 6 ejercicios prácticos sobre funciones en JavaScript, 
 6. **Algoritmo Burbuja**:  
    Implementación del algoritmo de ordenamiento burbuja para ordenar un arreglo de números.
 
-Cada uno de estos ejercicios está implementado con su solución respectiva, demostrando cómo enfrentar distintos desafíos usando métodos esenciales de JavaScript.
+Cada uno de estos ejercicios está implementado con respectiva solución , demostrando cómo enfrentar distintos desafíos usando métodos esenciales de JavaScript.
 
 ## Despliegue de la Página
 
-Puedes explorar el despliegue de la página en el siguiente enlace. ¡Échale un vistazo para aprender más sobre cómo funcionan estas funciones en JavaScript!
-
+¡Puedes explorar el despliegue de la página en el siguiente enlace!
 [Ver Despliegue de la Página](https://tu-enlace-de-despliegue.com)
