@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funciones JS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+
+    <h1 class="text-center">FUNCIONES JS</h1>
+    <div class="cards-container">
+        <div class="card">
+            <h2>Ejercicio 1 - Join</h2>
+            <p><span>let palabras = ["This", "is", "a", "sentence."]; </span><br>
+                function printOracion() {<br>
+                let oracion = palabras.join(" ");<br>
+                document.getElementById("ejercicio-1").innerText = oracion;<br>
+                }<br><br>
+                printOracion();
+            </p>
+            <h3>Resultado:</h3>
+            <div id="ejercicio-1"></div>
+        </div>
+
+        <div class="card">
+            <h2>Ejercicio 2 - Map</h2>
+            <p><span>let numerosMap = [1, 2, 4, 5, 10]; </span><br>
+                function duplicarValoresDelArreglo(arregloInicial) {<br>
+                let arregloDuplicado = arregloInicial.map(numero => numero * 2);<br>
+                document.getElementById("ejercicio-2").innerText = `Arreglo actualizado: [${arregloDuplicado.join(",
+                ")}]`;<br>
+                }<br><br>
+                duplicarValoresDelArreglo(numerosMap);
+            </p>
+            <h3>Resultado:</h3>
+            <div id="ejercicio-2"></div>
+        </div>
+
+        <div class="card">
+            <h2>Ejercicio 3 - Reduce</h2>
+            <p><span>let numerosReduce = [1, 2, 3, 4]; </span><br>
+                function calcularSumaYProducto(arreglo) {<br>
+                let suma = arreglo.reduce((acumulador, numero) => acumulador + numero, 0);<br>
+                let producto = arreglo.reduce((acumulador, numero) => acumulador * numero, 1);<br>
+                document.getElementById("ejercicio-3").innerText = `La suma es: ${suma}. El producto es:
+                ${producto}.`;<br>
+                }<br><br>
+                calcularSumaYProducto(numerosReduce);
+            </p>
+            <h3>Resultado:</h3>
+            <div id="ejercicio-3"></div>
+        </div>
+
+        <div class="card">
+            <h2>Ejercicio 4 - Filter</h2>
+            <p><span>let student1Courses = ['Math', 'English', 'Programming'];<br>
+                    let student2Courses = ['Geography', 'Spanish', 'Programming'];<br>
+                </span>
+                function encontrarCursosComunes(cursos1, cursos2) {<br>
+                let cursosComunes = cursos1.filter(curso => cursos2.includes(curso));<br>
+                let resultadoEjercicio4 = document.getElementById("ejercicio-4");<br>
+                if (cursosComunes.length > 0) {<br>
+                resultadoEjercicio4.innerText = `Cursos comunes: ${cursosComunes.join(", ")}`;<br>
+                } else {<br>
+                resultadoEjercicio4.innerText = "No hay cursos comunes.";<br>
+                }<br>
+                }<br><br>
+                encontrarCursosComunes(student1Courses, student2Courses);
+            </p>
+            <h3>Resultado:</h3>
+            <div id="ejercicio-4"></div>
+        </div>
+
+        <div class="card">
+            <h2>Ejercicio 5 - Array Manipulation</h2>
+            <p><span>let personas = ["Maria", "Dani", "Luis", "Juan", "Camila"];</span><br>
+                1. Imprimir todos los nombres de la lista<br>
+                2. Remover "Dani" del arreglo<br>
+                3. Remover "Juan" del arreglo<br>
+                4. Mover "Luis" al frente del arreglo<br>
+                5. Agregar mi nombre al final del arreglo<br>
+                6. Iterar a través del arreglo y salir después de console.log "Maria"<br>
+                7. Encontrar el índice de "Maria"
+            </p>
+            <h3>Resultado:</h3>
+            <div id="ejercicio-5"></div>
+        </div>
+
+        <div class="card">
+            <h2>Ejercicio 6 - Algoritmo Burbuja</h2>
+            <p><span>let arregloEntrada = [3, 6, 12, 5, 100, 1];</span><br>
+                function ordenamientoBurbuja(arreglo) {<br>
+                let longitudDelArreglo = arreglo.length;<br>
+                for (let iteracionExterna = 0; iteracionExterna < longitudDelArreglo - 1; iteracionExterna++) {<br>
+                    for (let indiceActual = 0; indiceActual < longitudDelArreglo - iteracionExterna - 1; indiceActual++)
+                        {<br>
+                        if (arreglo[indiceActual] > arreglo[indiceActual + 1]) {<br>
+                        let elementoTemporal = arreglo[indiceActual];<br>
+                        arreglo[indiceActual] = arreglo[indiceActual + 1];<br>
+                        arreglo[indiceActual + 1] = elementoTemporal;<br>
+                        }<br>
+                        }<br>
+                        }<br>
+                        return arreglo;<br>
+                        }<br>
+                        let arregloDeEntrada = [3, 6, 12, 5, 100, 1];<br>
+                        let arregloOrdenado = ordenamientoBurbuja(arregloDeEntrada);<br>
+                        let resultadoEjercicio6 = document.getElementById("ejercicio-6");<br>
+                        resultadoEjercicio6.innerHTML = "Salida (Arreglo Ordenado): " + arregloOrdenado.join(", ");
+            </p>
+            <h3>Resultado:</h3>
+            <div id="ejercicio-6"></div>
+        </div>
+    </div>
+
+    <script src="./assets/ejercicio-1.js"></script>
+    <script src="./assets/ejercicio-2.js"></script>
+    <script src="./assets/ejercicio-3.js"></script>
+    <script src="/assets/ejercicio-4.js"></script>
+    <script src="/assets/ejercicio-5.js"></script>
+    <script src="/assets/ejercicio-6.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</body>
+
+</html>

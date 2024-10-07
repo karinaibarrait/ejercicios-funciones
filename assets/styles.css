@@ -1,0 +1,57 @@
+body {
+    background-color: rgba(108, 18, 186, 0.357);
+    padding: 0 30px;
+}
+h1 {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+    text-underline-offset: 10px;
+    padding: 30px 15px 15px 15px;
+    font-weight: 700;
+
+}
+
+h1:hover {
+    color: rgb(169, 0, 169);
+}
+
+h2 {
+    color: #AA3378;
+    font-weight: 700;
+}
+
+h3 {
+    background-color: rgba(255, 255, 0, 0.344);
+}
+p {
+    color: green;
+}
+
+span {
+    color: blue;
+    font-size: 20px;
+
+}
+
+#ejercicio-1, #ejercicio-2, #ejercicio-3, #ejercicio-4, #ejercicio-5, #ejercicio-6 {
+    font-size: 20px;
+}
+
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+.card {
+    border: 1px solid #dddddd;
+    padding: 15px;
+    margin: 15px 0;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 15px rgba(59, 24, 54, 0.771);
+  }
