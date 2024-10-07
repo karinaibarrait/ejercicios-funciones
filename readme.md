@@ -26,6 +26,4 @@ Cada uno de estos ejercicios está implementado con su respectiva solución , de
 
 ## Despliegue de la Página
 
-¡Puedes explorar el despliegue de la página en el siguiente enlace!
-
-[Ver Despliegue de la Página](https://tu-enlace-de-despliegue.com)
+¡Puedes explorar el despliegue de la página en el siguiente [enlace]( https://karinaibarrait.github.io/ejercicios-funciones/)!
