@@ -6,6 +6,7 @@ h1 {
     text-decoration: underline;
     text-decoration-color: yellow;
     text-underline-offset: 10px;
+    text-decoration-thickness: 3px;
     padding: 30px 15px 15px 15px;
     font-weight: 700;
 
